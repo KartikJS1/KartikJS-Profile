@@ -1,0 +1,44 @@
+.hamburger {
+  cursor: pointer;
+  width: 26px;
+  height: 26px;
+  display: none;
+}
+
+.hamburger-btn {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  background: none;
+  border: none;
+  z-index: 9999;
+}
+
+@media screen and (max-width: 400px) {
+  .navbar {
+    background-color: lightgray;
+    height: 40px;
+    position: fixed;
+  }
+  .navbarDiv {
+    left: 0px;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .list {
+    display: none;
+    flex-direction: column;
+    background: white;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    gap: 12px;
+  }
+
+  .list.open {
+    display: flex;
+  }
+}

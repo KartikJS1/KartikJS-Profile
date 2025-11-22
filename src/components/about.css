@@ -1,0 +1,8 @@
+@media screen and (max-width: 400px) {
+  .aboutTitle {
+    font-size: 1.2rem;
+  }
+  .listItem {
+    font-size: 0.9rem;
+  }
+}

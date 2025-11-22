@@ -1,0 +1,26 @@
+@media screen and (max-width: 400px) {
+  .projects {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .projectsImage {
+    height: 60px;
+    width: 60px;
+    border-radius: 20px;
+    object-fit: contain;
+    margin-right: 10px;
+  }
+  .projectNameLink {
+    gap: 5px;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .projectTitle {
+    font-size: 14px;
+  }
+  .projectNameLink img {
+    width: 15px;
+    height: 15px;
+  }
+}

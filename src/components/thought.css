@@ -1,0 +1,8 @@
+@media screen and (max-width: 400px) {
+  .thought {
+    font-size: 1rem;
+  }
+  .author {
+    font-size: 0.75rem;
+  }
+}

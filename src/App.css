@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.leftDiv,
+.rightDiv {
+  background-color: rgba(245, 222, 179, 0.112);
+}
+@media screen and (max-width: 400px) {
+  .centerDiv {
+    width: 100% !important;
+  }
+
+  .leftDiv,
+  .rightDiv {
+    display: none;
+  }
+
+  .main2 {
+    justify-content: center;
+  }
+  .logo {
+    height: 8rem;
+    width: 100%;
+  }
+}

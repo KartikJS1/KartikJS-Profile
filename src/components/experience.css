@@ -1,0 +1,21 @@
+@media screen and (max-width: 400px) {
+  .experienceImage {
+    width: 30px;
+    height: 30px;
+  }
+  .experienceCompany {
+    font-size: 1rem;
+  }
+  .experienceTitle {
+    font-size: 0.8rem;
+  }
+  .experienceLocation {
+    font-size: 0.7rem;
+  }
+  .experiencePeriod {
+    font-size: 0.7rem;
+  }
+  .experienceList {
+    font-size: 0.8rem;
+  }
+}

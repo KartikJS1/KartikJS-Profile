@@ -1,0 +1,12 @@
+@media screen and (max-width: 400px) {
+  .profilePhoto {
+    height: 6rem;
+    width: 6rem;
+  }
+  .name {
+    font-size: 1.2rem;
+  }
+  .headerDiv {
+    margin-top: 1px;
+  }
+}
